@@ -57,7 +57,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'docker'
-    repository: 'backend'
+    repository: 'mohamedrouahi/spring-backend'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: 'latest'
